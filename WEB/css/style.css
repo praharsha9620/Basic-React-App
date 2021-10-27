@@ -1,0 +1,25 @@
+body{
+  margin:0px;
+}
+.one
+{
+  background-color: red;
+  width:100%;
+  padding: 15%;
+  margin: 0px;
+}
+
+.two
+{
+  background-color: yellow;
+  width:100;
+  padding: 10%;
+
+
+}
+.three
+{
+  background-color: blue;
+  width: 100%;
+  padding: 20%;
+}

@@ -1,0 +1,10 @@
+<%-include("partials/header"); -%>
+<h1>Home</h1>
+<p><%=NewHome%></p>
+
+<%posts.forEach(function(element){ %>
+  <h1><%=element.Title%></h1>
+  <p><%=element.Content.substring(0,100) + "... "%><a href="/posts/<%=element.Title%>">Read More</a></p>
+<% }); %>
+
+<%-include("partials/footer"); -%>
